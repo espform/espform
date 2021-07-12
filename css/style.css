@@ -44,6 +44,10 @@ a{
     justify-content: space-evenly;
     align-items: center;    
 }
+.repo-main{
+    padding-top: 15px;
+    align-items: flex-start; 
+}
 .home-a{
     margin: 0px 5px 0px 5px;
     min-width: 280px;
@@ -77,91 +81,57 @@ a{
 	position:relative;
 	top:1px;
 }
+.repo-a{
+    min-width: 180px;
+    max-width: 400px;
+    width: 20vw;
+    height: 200px;
+}
+.nav{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .p-informes{
     margin-bottom: 10px;
 }
-.tec-icon{
+.icon {
     width: 50px;
     height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tec-icon {
     background-image: url('https://i.postimg.cc/SKmKpF31/soporte-tecnico.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
-.aac-icon{
-    width: 50px;
-    height: 50px;
-    background-image: url('https://i.postimg.cc/sgY28D6Z/servicio-al-cliente.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.aac-icon {
+    background-image: url('https://i.postimg.cc/sgY28D6Z/servicio-al-cliente.png'); 
 }
-.alm-icon{
-    width: 50px;
-    height: 50px;
+.alm-icon {
     background-image: url('https://i.postimg.cc/pXnrfBKC/almacen.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
-.ven-icon{
-    width: 50px;
-    height: 50px;
+.ven-icon {
     background-image: url('https://i.postimg.cc/YCK9bm3H/venta-al-por-mayor.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
-.inf-icon{
-    width: 50px;
-    height: 50px;
+.inf-icon {
     background-image: url('https://i.postimg.cc/fys3ktrZ/informe-seo.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     margin-bottom: 10px;
 }
-.rep-icon{
-    width: 50px;
-    height: 50px;
+.rep-icon {
     background-image: url('https://i.postimg.cc/cCcv3xp3/inmigracion.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
-/* .repo-a{
-    margin: 0px 5px 0px 5px;
-    min-width: 100px;
-    max-width: 200px;
-    width: 10vw;
-    height: 100px;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    box-shadow:inset 0px 1px 0px 0px #f29c93;
-	background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
-	background-color:#fe1a00;
-	border-radius:15px;
-	border:1px solid #d83526;
-    cursor:pointer;
-	color:#ffffff;
-    font-size: 1.2rem;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #b23e35;
+.adi-icon {
+    background-image: url('https://image.flaticon.com/icons/png/512/1349/1349201.png');
 }
-.repo-a:hover {
-	background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
-	background-color:#ce0100;
+.roci-icon {
+    background-image: url('https://image.flaticon.com/icons/png/512/1436/1436909.png');
 }
-.repo-a:active {
-	position:relative;
-	top:1px;
-} */
+.sal-icon {
+    background-image: url('https://image.flaticon.com/icons/png/512/2790/2790184.png');
+}
 main h2{
     color: black;
     font-size: 2.5rem;
